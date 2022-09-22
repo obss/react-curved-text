@@ -62,8 +62,8 @@ function App() {
                 </h2>
 
                 <div className="installationDiv">
-                    <pre>npm install react-curved-app</pre>
-                    <pre>yarn add react-curved-app</pre>
+                    <pre>npm install react-curved-text</pre>
+                    <pre>yarn add react-curved-text</pre>
                 </div>
 
                 <h3>
