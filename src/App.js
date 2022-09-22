@@ -198,6 +198,17 @@ function App() {
                     <h3>Current JSX</h3>
                     <span>{currentJsxString}</span>
                 </div>
+
+                <div className="codesandboxDiv">
+                    <h3>Live Demo</h3>
+                    <a href="https://codesandbox.io/s/react-curved-text-demo-99276l" target="_blank" rel="noreferrer">
+                        <img
+                            src="https://codesandbox.io/static/img/play-codesandbox.svg"
+                            alt="Edit react-curved-text-demo"
+                        />
+                    </a>
+                </div>
+
                 <div className="apiDiv">
                     <h3>API</h3>
                     <table className="apiTable">

@@ -97,6 +97,10 @@
     float: left;
 }
 
+.codesandboxDiv {
+    margin-top: 20px;
+}
+
 .apiDiv {
     margin-bottom: 50px;
 }
