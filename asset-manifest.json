@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-curved-text/static/css/main.f9d933bd.css",
-    "main.js": "/react-curved-text/static/js/main.3200e896.js",
+    "main.css": "/react-curved-text/static/css/main.6a68c4a3.css",
+    "main.js": "/react-curved-text/static/js/main.b29641f2.js",
     "index.html": "/react-curved-text/index.html",
-    "main.f9d933bd.css.map": "/react-curved-text/static/css/main.f9d933bd.css.map",
-    "main.3200e896.js.map": "/react-curved-text/static/js/main.3200e896.js.map"
+    "main.6a68c4a3.css.map": "/react-curved-text/static/css/main.6a68c4a3.css.map",
+    "main.b29641f2.js.map": "/react-curved-text/static/js/main.b29641f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9d933bd.css",
-    "static/js/main.3200e896.js"
+    "static/css/main.6a68c4a3.css",
+    "static/js/main.b29641f2.js"
   ]
 }
