@@ -19,6 +19,7 @@ const ReactCurvedText = (props) => {
         textProps,
         tspanProps,
     } = props;
+    const [rendered, setRendered] = useState(false);
     const [ellipseId] = useState(`ellipse-id${useId().replaceAll(':', '-')}`);
     const svgRef = useRef();
 
@@ -50,8 +51,10 @@ const ReactCurvedText = (props) => {
                 const pathValueReversedStr = SVGPathCommander.pathToString(pathValueReversed);
                 newEllipsePath.setAttribute('d', pathValueReversedStr);
             }
+
+            setRendered(true);
         }
-    }, [svgRef.current]);
+    }, [svgRef.current, reversed, width, height, svgProps, cx, cy, rx, ry, ellipseProps]);
 
     if (isNullOrUndefined(width)) {
         throw new Error('ReactCurvedText Error: width is required');
@@ -81,7 +84,7 @@ const ReactCurvedText = (props) => {
         throw new Error('ReactCurvedText Error: text is required');
     }
 
-    const key = JSON.stringify({
+    const textKey = JSON.stringify({
         width,
         height,
         cx,
@@ -96,11 +99,12 @@ const ReactCurvedText = (props) => {
         textPathProps,
         textProps,
         tspanProps,
+        rendered,
     });
 
     return (
-        <svg key={key} ref={svgRef} height={height} width={width} {...svgProps}>
-            <text {...textProps}>
+        <svg ref={svgRef} height={height} width={width} {...svgProps}>
+            <text key={textKey} {...textProps}>
                 <textPath xlinkHref={`#${ellipseId}`} startOffset={startOffset} {...textPathProps}>
                     <tspan {...tspanProps}>{text}</tspan>
                 </textPath>
