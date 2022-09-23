@@ -5,7 +5,7 @@ import HeaderInfo from './HeaderInfo';
 import ReactCurvedText from './lib';
 
 function App() {
-    const [width, setWidth] = useState(370);
+    const [width, setWidth] = useState(350);
     const [height, setHeight] = useState(300);
     const [cx, setCx] = useState(190);
     const [cy, setCy] = useState(140);
