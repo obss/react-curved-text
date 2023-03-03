@@ -5,10 +5,10 @@ import HeaderInfo from './HeaderInfo';
 import ReactCurvedText from './lib';
 
 function App() {
-    const [width, setWidth] = useState(350);
+    const [width, setWidth] = useState(300);
     const [height, setHeight] = useState(300);
-    const [cx, setCx] = useState(190);
-    const [cy, setCy] = useState(140);
+    const [cx, setCx] = useState(150);
+    const [cy, setCy] = useState(150);
     const [rx, setRx] = useState(100);
     const [ry, setRy] = useState(100);
     const [startOffset, setStartOffset] = useState(50);

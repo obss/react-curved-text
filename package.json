@@ -1,6 +1,6 @@
 {
     "name": "react-curved-text",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "A library for creating circular / curved texts in React projects",
     "keywords": [
         "react",
@@ -43,7 +43,7 @@
         "eslint": "8.23.1",
         "eslint-config-prettier": "8.5.0",
         "eslint-plugin-prettier": "4.2.1",
-        "eslint-plugin-react": "7.31.8",
+        "eslint-plugin-react": "7.32.2",
         "eslint-plugin-react-hooks": "4.6.0",
         "jsx-to-string": "1.4.0",
         "prettier": "2.7.1",
