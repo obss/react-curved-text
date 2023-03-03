@@ -23,6 +23,10 @@ jobs:
               uses: actions/setup-node@v3
               with:
                   node-version: ${{ matrix.node-version }}
+            - name: Update yarn @v2
+              run: corepack enable
+            - run: corepack prepare yarn@3.2.4 --activate
+            - run: yarn -v
             - name: Install dependencies
               run: rm -rf node_modules && yarn install
             - run: npm run build-storybook
