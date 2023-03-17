@@ -55,6 +55,9 @@ export default MyComponent;
 
 Checkout live examples on [react-curved-text-demo](https://obss.github.io/react-curved-text) page for various customizations.
 
+Checkout a [Live Example with Rotate Animation](https://codesandbox.io/embed/react-curved-text-animation-pt8fvk).
+
+
 ## API
 
 | **Prop**          | **Type** | **Required** | **Description**                            |

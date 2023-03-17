@@ -208,6 +208,19 @@ function App() {
                         />
                     </a>
                 </div>
+                <div className="codesandboxDiv">
+                    <h3>Live Demo with Rotate Animation</h3>
+                    <a
+                        href="https://codesandbox.io/embed/react-curved-text-animation-pt8fvk"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <img
+                            src="https://codesandbox.io/static/img/play-codesandbox.svg"
+                            alt="Edit react-curved-text-animation"
+                        />
+                    </a>
+                </div>
 
                 <div className="apiDiv">
                     <h3>API</h3>
