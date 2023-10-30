@@ -20,7 +20,8 @@ const ReactCurvedText = (props) => {
         tspanProps,
     } = props;
     const [rendered, setRendered] = useState(false);
-    const [ellipseId] = useState(`ellipse-id${useId().replaceAll(':', '-')}`);
+    const uniqueId = useId();
+    const ellipseId = `ellipse-id${uniqueId.replaceAll(':', '-').substring(0, uniqueId.length - 1)}`;
     const svgRef = useRef();
 
     useEffect(() => {

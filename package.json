@@ -1,6 +1,6 @@
 {
     "name": "react-curved-text",
-    "version": "2.0.2",
+    "version": "3.0.0-beta.1",
     "description": "A library for creating circular / curved texts in React projects",
     "keywords": [
         "react",
@@ -19,7 +19,10 @@
         "start-storybook": "set PUBLIC_URL=. && react-scripts start",
         "build-storybook": "react-scripts build"
     },
-    "repository": "https://github.com/obss/react-curved-text.git",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/obss/react-curved-text.git"
+    },
     "homepage": "https://obss.github.io/react-curved-text",
     "license": "MIT",
     "author": "ahmetemrekilinc",
@@ -54,7 +57,6 @@
         "rollup-plugin-node-builtins": "2.1.2",
         "rollup-plugin-node-globals": "1.4.0",
         "rollup-plugin-peer-deps-external": "2.2.4",
-        "rollup-plugin-postcss": "4.0.2",
         "rollup-plugin-terser": "7.0.2",
         "rollup-plugin-visualizer": "5.8.1"
     },
@@ -75,5 +77,6 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
-    }
+    },
+    "packageManager": "yarn@4.0.0"
 }
