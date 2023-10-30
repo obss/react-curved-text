@@ -15,7 +15,7 @@ jobs:
 
         strategy:
             matrix:
-                node-version: [18.12.0]
+                node-version: [18.18.2]
 
         steps:
             - uses: actions/checkout@v3
@@ -30,10 +30,10 @@ jobs:
             - name: Install dependencies
               run: rm -rf node_modules && yarn install
             - run: npm run build-storybook
-            - run: touch ./build/.nojekyll
+            - run: touch ./storybook-dist/.nojekyll
 
             - name: Deploy 🚀
               uses: JamesIves/github-pages-deploy-action@v4.2.5
               with:
                   branch: gh-pages # The branch the action should deploy to.
-                  folder: build # The folder the action should deploy.
+                  folder: storybook-dist # The folder the action should deploy.

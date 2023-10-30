@@ -62,7 +62,7 @@ export default [
 
                 // search for files other than .js files (must already
                 // be transpiled by a previous plugin!)
-                extensions: [ '.js', '.coffee' ],  // Default: [ '.js' ]
+                extensions: [ '.js', '.jsx', '.coffee' ],  // Default: [ '.js' ]
 
                 // if true then uses of `global` won't be dealt with by this plugin
                 ignoreGlobal: false,  // Default: false
