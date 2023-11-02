@@ -68,7 +68,7 @@ function App() {
 
                 <h3>
                     <a
-                        href="https://github.com/obss/react-curved-text/blob/master/src/App.js"
+                        href="https://github.com/obss/react-curved-text/blob/master/src/App.jsx"
                         target="_blank"
                         rel="noreferrer"
                     >
