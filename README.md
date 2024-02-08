@@ -51,11 +51,10 @@ export default MyComponent;
 
 ## Examples
 
-[![Edit form-quickstart](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/embed/react-curved-text-demo-99276l)
 
 Checkout live examples on [react-curved-text-demo](https://obss.github.io/react-curved-text) page for various customizations.
 
-Checkout a [Live Example with Rotate Animation](https://codesandbox.io/embed/react-curved-text-animation-pt8fvk).
+Checkout a [Live Example with Rotate Animation](https://stackblitz.com/edit/react-curved-text-animation).
 
 
 ## API

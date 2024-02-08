@@ -55,11 +55,11 @@ function App() {
             <HeaderInfo />
             <div className="exampleDemo">
                 <br />
-                <h2>
+                <h1>
                     <a href={'https://www.npmjs.com/package/react-curved-text'} target="_blank" rel="noreferrer">
                         react-curved-text
                     </a>
-                </h2>
+                </h1>
 
                 <div className="installationDiv">
                     <pre>npm install react-curved-text</pre>
@@ -195,35 +195,25 @@ function App() {
                     </div>
                 </div>
                 <div className="currentJsxDiv">
-                    <h3>Current JSX</h3>
+                    <h2>Current JSX</h2>
                     <span>{currentJsxString}</span>
                 </div>
 
-                <div className="codesandboxDiv">
-                    <h3>Live Demo</h3>
-                    <a href="https://codesandbox.io/s/react-curved-text-demo-99276l" target="_blank" rel="noreferrer">
-                        <img
-                            src="https://codesandbox.io/static/img/play-codesandbox.svg"
-                            alt="Edit react-curved-text-demo"
-                        />
+                <h2>LIVE DEMO</h2>
+
+                <div className="demoLinkDiv">
+                    <a href="https://stackblitz.com/edit/react-curved-text-demo" target="_blank" rel="noreferrer">
+                        <h3>Checkout Live Demo</h3>
                     </a>
                 </div>
-                <div className="codesandboxDiv">
-                    <h3>Live Demo with Rotate Animation</h3>
-                    <a
-                        href="https://codesandbox.io/embed/react-curved-text-animation-pt8fvk"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <img
-                            src="https://codesandbox.io/static/img/play-codesandbox.svg"
-                            alt="Edit react-curved-text-animation"
-                        />
+                <div className="demoLinkDiv">
+                    <a href="https://stackblitz.com/edit/react-curved-text-animation" target="_blank" rel="noreferrer">
+                        <h3>Checkout Live Demo with Rotate Animation</h3>
                     </a>
                 </div>
 
                 <div className="apiDiv">
-                    <h3>API</h3>
+                    <h2>API</h2>
                     <table className="apiTable">
                         <thead>
                             <tr>
